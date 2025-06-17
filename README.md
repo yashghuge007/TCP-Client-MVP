@@ -1,6 +1,6 @@
 # TCP Client MVP
 
-A simple TCP client application built with C# using the Model-View-Presenter (MVP) design pattern.  
+A simple TCP client application built with C# to learn and understand the interaction of client with Server.  
 This project demonstrates fundamental TCP networking and separation of concerns for maintainable and testable code.
 
 ## Features
@@ -8,7 +8,6 @@ This project demonstrates fundamental TCP networking and separation of concerns 
 - Connect to a TCP server with a specified IP address and port.
 - Send and receive messages over a TCP connection.
 - Clean, user-friendly interface.
-- MVP architecture for easier testing and maintenance.
 
 ## Getting Started
 
@@ -24,11 +23,14 @@ This project demonstrates fundamental TCP networking and separation of concerns 
    git clone https://github.com/yashghuge007/TCP-Client-MVP.git
    cd TCP-Client-MVP
    ```
+2. **Launcch the Server:**
+   - Navigate to Server folder.
+   - Launch Server by running node main.js in the PWD.
 
-2. **Open the solution:**
+3. **Open the solution:**
    - Open `ABXClient.sln` in Visual Studio.
 
-3. **Build and Run:**
+4. **Build and Run:**
    - Build the solution (`Ctrl+Shift+B`).
    - Set `ABXClient` as the startup project.
    - Run the application (`F5` or `Ctrl+F5`).
